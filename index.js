@@ -14,7 +14,7 @@ const askQuestion = (query) => {
 };
 
 // Initialize 2Captcha Solver with your API key
-const solver = new Solver("653ea57b731639a8d68257d579f1ae9d");
+const solver = new Solver("2CAPTCHAPIKEY");
 const delay = (time) => new Promise((resolve) => setTimeout(resolve, time));
 
 // Define the injected script to intercept CAPTCHA parameters
